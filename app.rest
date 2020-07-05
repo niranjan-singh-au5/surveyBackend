@@ -1,0 +1,35 @@
+POST http://localhost:3010/api/employee
+Content-Type: application/json
+
+{
+    "empName": "abdullah"
+}
+
+###
+GET http://localhost:3010/api/employee
+
+###
+
+POST  http://localhost:3010/api/employee/5eff8eae6f523f351478fe13
+Content-Type : application/json
+
+{
+    "id" : "5eff944d06c6c8377c387b9c"
+}
+
+###
+GET http://localhost:3010/api/employee/5eff8eae6f523f351478fe13
+
+###
+POST http://localhost:3010/api/survey
+Content-Type: application/json
+
+{
+    "surveyName": "Survey 7"
+}
+
+###
+GET http://localhost:3010/api/survey
+
+###
+DELETE http://localhost:3010/api/employee/5f01e8c6d8a87d433880e363/5f01e88ad8a87d433880e35c
